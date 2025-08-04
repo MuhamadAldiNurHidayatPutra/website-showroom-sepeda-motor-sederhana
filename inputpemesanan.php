@@ -2,7 +2,7 @@
 session_start();
 
 if ($_SESSION['status'] != "login") {
-    header('Location: index.html');
+    header('Location: halutama.html');
 }
 
 $username = $_SESSION['username'];
