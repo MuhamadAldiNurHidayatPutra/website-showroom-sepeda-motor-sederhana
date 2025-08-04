@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOTORCYCLESTOREHOUSE</title>
+
+    <script type="text/javascript">
+        alert("selamat datang, silahkan pilih terlebih dahulu!");
+    </script>
+
+    <style>
+       body {
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f4;
+            flex-direction: column;
+            /* Menyusun elemen secara vertikal */
+            height: 100vh;
+            /* Menentukan tinggi 100% dari viewport */
+        }
+
+        .logo img {
+            padding-left: 35px;
+        }
+
+        .hero-container {
+            position: relative;
+            width: 100%;
+        }
+
+        .hero-image {
+            width: 100%;
+            display: block;
+            filter: brightness(90%) contrast(80%);
+        }
+
+        .tombol {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            padding: 5px 5px;
+            padding-right: 15px;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            margin: 5px;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        h1 {
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero-container">
+        <img src="home2.jpg" alt="Hero Image" class="hero-image">
+        <div class="tombol">
+            <h1>INGIN LOGIN SEBAGAI APA?</h1>
+            <button><a href="login.php">Admin</a></button> 
+            <button><a href="home.php">User</a></button>
+        </div>
+    </div>
+</body>
+</html>
